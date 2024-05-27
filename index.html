@@ -7,8 +7,9 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/theme-switcher.css">
     </head>
-    <body>
+    <body data-theme="2">
         <div id="container--main">
 
             <section id="wrapper--hero" class="section--page">
@@ -16,7 +17,7 @@
 
                 <div>
                     <h1 id="user-name">Dennis Ivanov</h1>
-                    <p id="bio">Software developer, developer advocate at <a href="https://www.agora.io/en/" target="_blank">Agora</a>, Udemy <a href="https://www.udemy.com/user/dennis-ivanov-5/" target="_blank">instructor</a>, <a href="https://www.youtube.com/c/dennisivy" target="_blank">YouTuber</a> with 166k+ subs and contributor at <a href="https://youtu.be/PtQiiknWUcI?t=6" target="_blank">Traversy Media</a>.</p>
+                    <p id="bio">Software developer, developer advocate at <a href="https://www.appwrite.io/" target="_blank">Appwrite</a>, Udemy <a href="https://www.udemy.com/user/dennis-ivanov-5/" target="_blank">instructor</a>, <a href="https://www.youtube.com/c/dennisivy" target="_blank">YouTuber</a> with 210k subs and contributor at <a href="https://youtu.be/PtQiiknWUcI?t=6" target="_blank">Traversy Media</a>.</p>
                     <p id="email">👉 dennis@dennisivy.com</p>
                 </div>  
             </section>
@@ -35,10 +36,10 @@
             <section class="section--page">
                 <h2>Skills & Qualifications</h2>
                 <ul id="qualifications--list">
-                    <li>✔️ 7 Years experience with front & backend development</li>
+                    <li>✔️ 10 Years experience with front & backend development</li>
                     <li>✔️ Extensive knowledge in API & Database Design.</li>
                     <li>✔️ Experienced content creator on YouTube & community leader </li>
-                    <li>✔️ 7 Years experience with running Adwords campaigns & SEO</li>
+                    <li>✔️ Experience with running paid ad campaigns & SEO</li>
                 </ul>
             </section>
 
@@ -56,10 +57,18 @@
             <section id="work-history-wrapper" class="section--page">
                 <h2>Work History</h2>
 
+                <div class="card--work-history">
+                    <strong>🚧 DEVELOPER ADVOCATE | APPWRITE.IO</strong>
+                    <p>9/2023 - present</p>
+                    <p>Working to improve developer adoption and experience accross all Appwrites SDK through educational content on the Appwrite <a href="https://www.youtube.com/appwrite" target="_blank">Youtube channel</a>, <a href="https://appwrite.io/blog/author/dennis-ivy" target="_blank">articles</a>, & <a href="https://www.youtube.com/live/VJvawxeUhN4">community events</a></p>
+    
+                </div>
+
                 <div class="line-break"></div>
+
                 <div class="card--work-history">
                     <strong>🚧 DEVELOPER ADVOCATE | AGORA.IO</strong>
-                    <p>11/2021 - Present</p>
+                    <p>11/2021 - 9/2023</p>
                     <p>Worked on making Agora’s Web Based SDK more accessible through video tutorials, articles, demo projects and event based training. Also building out React UI components & leading a team to re-design Agora’s documentation and api reference.</p>
                     <ul>
                         <li>Doubled Web SDK’s monthly usage minutes from 15 million to 30 million minutes within my first 4 months</li>
@@ -138,6 +147,13 @@
 
        
         </div>
-
+        <div id="theme-switcher">
+            <div class="theme" id="theme-light" data-theme="light"></div>
+            <div class="theme" id="theme-dark" data-theme="dark"></div>
+            <div class="theme" id="theme-1" data-theme="1"></div>
+            <div class="theme" id="theme-2" data-theme="2"></div>
+            <div class="theme" id="theme-3" data-theme="3"></div>
+        </div>
     </body>
+    <script src="js/theme-switcher.js"></script>
 </html>
