@@ -16,30 +16,6 @@
     --mainBgColor:#131415;
 }
 
-[data-theme="1"]{
-    --mainTextColor:#999ECD;
-    --secondaryTextColor:#93969D;
-    --mainLinkColor:rgb(30, 190,214);
-    --mainBorderColor:#2b3031;
-    --mainBgColor:#2E3138;
-}
-
-[data-theme="2"]{
-    --mainTextColor:#73B5DE;
-    --secondaryTextColor:#888D93;
-    --mainLinkColor:rgb(30, 190,214);
-    --mainBorderColor:#2b3031;
-    --mainBgColor:#282F37;
-}
-
-[data-theme="3"]{
-    --mainTextColor:#AD7EAD;
-    --secondaryTextColor:#9E9BA3;
-    --mainLinkColor:rgb(30, 190,214);
-    --mainBorderColor:#2b3031;
-    --mainBgColor:#322F38;
-}
-
 
 
 *{
@@ -179,6 +155,7 @@ li{
     .section--page{
         padding-top: 1em;
         padding-bottom: 1em;
+        margin-top: 3em;
     }
 
     #wrapper--hero{
