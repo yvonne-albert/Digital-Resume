@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 :root{
     --mainTextColor-light:#ffffff;
     --secondaryTextColor-light:#ffffff;
-    --mainLinkColor-light:#4e046b;
+    --mainLinkColor-light:#4f086b;
     --mainBorderColor-light:#2b3031;
     --mainBgColor-light:#131415;
 }
@@ -11,7 +11,7 @@
 [data-theme="dark"]{
     --mainTextColor:#fff;
     --secondaryTextColor:#ffffff;
-    --mainLinkColor:#4e046b;
+    --mainLinkColor:#590679;
     --mainBorderColor:#2b3031;
     --mainBgColor:#131415;
 }
@@ -19,7 +19,7 @@
 
 
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     line-height: 1.5em;
     font-style: normal;
     box-sizing: border-box;
@@ -93,14 +93,14 @@ li{
 #socials--list a{
     font-weight: 400;
     color: var(--secondaryTextColor);
-    font-size: 1em;
+    font-size: 2em;
     transition: 0.3s;
 }
 
 #socials--list a{
     font-weight: 100;
     color: var(--mainLinkColor);
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 #qualifications--list{
