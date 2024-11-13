@@ -3,7 +3,7 @@
 :root{
     --mainTextColor-light:#ffffff;
     --secondaryTextColor-light:#ffffff;
-    --mainLinkColor-light:rgb(81, 6, 100);
+    --mainLinkColor-light:rgb(246, 243, 247);
     --mainBorderColor-light:#2b3031;
     --mainBgColor-light:#131415;
 }
@@ -11,7 +11,7 @@
 [data-theme="dark"]{
     --mainTextColor:#fff;
     --secondaryTextColor:#ffffff;
-    --mainLinkColor:rgb(83, 7, 101);
+    --mainLinkColor:rgb(251, 248, 252);
     --mainBorderColor:#2b3031;
     --mainBgColor:#131415;
 }
