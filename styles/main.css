@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 :root{
-    --mainTextColor-light:#ffffff;
-    --secondaryTextColor-light:#ffffff;
-    --mainLinkColor-light:rgb(246, 243, 247);
+    --mainTextColor-light:#000000;
+    --secondaryTextColor-light:#000000;
+    --mainLinkColor-light:rgb(0, 0, 0);
     --mainBorderColor-light:#2b3031;
-    --mainBgColor-light:#131415;
+    --mainBgColor-light:#ffffff;
 }
 
 [data-theme="dark"]{
     --mainTextColor:#fff;
     --secondaryTextColor:#ffffff;
-    --mainLinkColor:rgb(251, 248, 252);
+    --mainLinkColor:rgb(231, 5, 170);
     --mainBorderColor:#2b3031;
     --mainBgColor:#131415;
 }
