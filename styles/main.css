@@ -3,7 +3,7 @@
 :root{
     --mainTextColor-light:#ffffff;
     --secondaryTextColor-light:#ffffff;
-    --mainLinkColor-light:#ba12d4;
+    --mainLinkColor-light:#4e046b;
     --mainBorderColor-light:#2b3031;
     --mainBgColor-light:#131415;
 }
@@ -11,7 +11,7 @@
 [data-theme="dark"]{
     --mainTextColor:#fff;
     --secondaryTextColor:#ffffff;
-    --mainLinkColor:rgb(201, 23, 232);
+    --mainLinkColor:#4e046b;
     --mainBorderColor:#2b3031;
     --mainBgColor:#131415;
 }
@@ -91,7 +91,7 @@ li{
 }
 
 #socials--list a{
-    font-weight: 300;
+    font-weight: 400;
     color: var(--secondaryTextColor);
     font-size: 1em;
     transition: 0.3s;
